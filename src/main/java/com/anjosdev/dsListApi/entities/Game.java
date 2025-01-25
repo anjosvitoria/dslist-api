@@ -19,10 +19,10 @@ public class Game {
     private Double score;
     private String imgUrl;
 
-    @Column(columnDefinition = "TEXT") // customizando o nome
+    @Column(columnDefinition = "TEXT") // customizando para receber char maior
     private String shortDescription;
 
-    @Column(columnDefinition = "TEXT") // customizando o nome
+    @Column(columnDefinition = "TEXT") // customizando para receber char maior
     private String longDescription;
 
     public Game(){
